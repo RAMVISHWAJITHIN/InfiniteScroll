@@ -47,6 +47,9 @@ const InfiniteScrollCoins = () => {
   return (
     <div className="container mx-auto p-4">
       {/* Infinite Scroll Component */}
+      <div className="flex justify-center items-center mb-8">
+      <h1 className="text-4xl font-bold text-gray-800 neumorphic-title">InfiniteScroll Cryptocurrencies</h1>
+    </div>
       <InfiniteScroll
         dataLength={coins.length}
         next={() => {
